@@ -15,6 +15,9 @@ Alice::Math::Arithmetic
 # Description
 Computes the square root of a floating-point value
 
+# Notes
+Define the macro ``AliceFastSqrt`` to get some performance gain at the cost of less accurate results
+
 # Functions (2)
 1º:
 
