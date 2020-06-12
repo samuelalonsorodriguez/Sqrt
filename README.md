@@ -5,9 +5,9 @@ Alice Sqrt
 "base_alice"\Math\Arithmetic\Sqrt.hpp
 
 # Requirements
-Inline: 
-Types: 
-Intrinsics: 
+Inline: https://github.com/samuelalonsorodriguez/Inline
+Types: https://github.com/samuelalonsorodriguez/Types
+Intrinsics: https://github.com/samuelalonsorodriguez/Intrinsics
 
 # Namespace
 Alice::Math::Arithmetic
