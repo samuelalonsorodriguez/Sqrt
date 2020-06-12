@@ -33,7 +33,7 @@ int main()
   char c;
   std::cin >> c;
   return 0;
-}```
+} ```
 
 2º:
 
@@ -52,4 +52,4 @@ int main()
   char c;
   std::cin >> c;
   return 0;
-}```
+} ```
