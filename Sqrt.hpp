@@ -12,7 +12,7 @@ namespace Alice
         {
             AliceInline f32 Sqrt(f32 x) noexcept
             {
-                #if defined(AliceIos) || defined(AliceAndroid) && !defined(_MSC_VER)
+                #if defined(AliceIos) || defined(AliceAndroid)
                 #if defined(AliceFastSqrt)
                 __asm__ ("frsqrte" : "=t" (x) : "0" (x));
                 __asm__ ("fmul" : "=t" (x) : "0" (x));
@@ -33,7 +33,7 @@ namespace Alice
 
             AliceInline f64 Sqrt(f64 x) noexcept
             {
-                #if defined(AliceIos) || defined(AliceAndroid) && !defined(_MSC_VER)
+                #if defined(AliceIos) || defined(AliceAndroid)
                 #if defined(AliceFastSqrt)
                 __asm__ ("frsqrte" : "=t" (x) : "0" (x));
                 __asm__ ("fmul" : "=t" (x) : "0" (x));
