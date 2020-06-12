@@ -1,4 +1,3 @@
-//Copyright 2020 Iris Technologies, All Rights Reserved
 #pragma once
 #include <Core\Types.hpp>
 #include <Core\Inline.hpp>
